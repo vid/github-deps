@@ -1,8 +1,8 @@
 # github-deps
 
-NB this repo generates a static view, and doesn't support private repos.
+NB this project generates a static view (using HTML/React components, and doesn't currently support private repos.
 
-Generate graphs from github uses marked up with convention-using tags.
+Generate graphs from github uses marked up with convention-using tags. Look at this repo's Issues to see how dependences are created.
 
 ![sample](Sample.png)
 
