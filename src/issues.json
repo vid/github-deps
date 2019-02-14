@@ -1,0 +1,49 @@
+[
+  {
+    "id": 8,
+    "name": "Automated checkout and docker update",
+    "dependencies": [
+      7
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Deploy to dev on checkout"
+  },
+  {
+    "id": 6,
+    "name": "N1"
+  },
+  {
+    "id": 5,
+    "name": "N2",
+    "dependencies": [
+      6
+    ]
+  },
+  {
+    "id": 4,
+    "name": "N3",
+    "dependencies": [
+      5
+    ]
+  },
+  {
+    "id": 3,
+    "name": "L1"
+  },
+  {
+    "id": 2,
+    "name": "L2 Dep",
+    "dependencies": [
+      3
+    ]
+  },
+  {
+    "id": 1,
+    "name": "L3 Dep",
+    "dependencies": [
+      2
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "id": 8,
+      "label": "Automated checkout and docker update"
+    },
+    {
+      "id": 7,
+      "label": "Deploy to dev on checkout"
+    },
+    {
+      "id": 6,
+      "label": "N1"
+    },
+    {
+      "id": 5,
+      "label": "N2"
+    },
+    {
+      "id": 4,
+      "label": "N3"
+    },
+    {
+      "id": 3,
+      "label": "L1"
+    },
+    {
+      "id": 2,
+      "label": "L2 Dep"
+    },
+    {
+      "id": 1,
+      "label": "L3 Dep"
+    }
+  ],
+  "edges": [
+    {
+      "from": 7,
+      "to": "8"
+    },
+    {
+      "from": 6,
+      "to": "5"
+    },
+    {
+      "from": 5,
+      "to": "4"
+    },
+    {
+      "from": 3,
+      "to": "2"
+    },
+    {
+      "from": 2,
+      "to": "1"
+    }
+  ]
+}
