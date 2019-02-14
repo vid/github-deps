@@ -62,5 +62,7 @@ typings/
 
 #Local
 build
-config.js
+config.js 
+src/vis.json
+src/issues.json
 
